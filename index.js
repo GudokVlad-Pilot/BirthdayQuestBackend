@@ -1,5 +1,5 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 const cors = require("cors");
 
 app.use(cors({
@@ -8,23 +8,27 @@ app.use(cors({
     credentials: true,
 }));
 
+let numbers = [1, 2, 3, 4, 5, 6, 7];
+let currentNumber = numbers[Math.floor(Math.random() * numbers.length)];
 let startTime = Date.now();
 
-app.get("/get-start-time", (req, res) => {
-    res.json({ startTime });
+const updateCurrentNumber = () => {
+  currentNumber = numbers[Math.floor(Math.random() * numbers.length)];
+  startTime = Date.now();
+};
+
+setInterval(updateCurrentNumber, 90000);
+
+app.get("/get-current-number", (req, res) => {
+  res.json({ currentNumber, startTime });
 });
 
-app.post("/set-start-time", (req, res) => {
-    startTime = Date.now();
-    res.json({ startTime });
+app.get("/numbers", (req, res) => {
+  res.json({ "numbers": numbers });
 });
 
 app.get("/users", (req, res) => {
     res.json({ "users": ["userOne", "userTwo", "userThree", "userFour"] })
-})
-
-app.get("/numbers",  (req, res) => {
-    res.json({ "numbers": [1, 2, 3, 4, 5, 6, 7] })
 })
 
 
