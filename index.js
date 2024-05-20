@@ -8,6 +8,17 @@ app.use(cors({
     credentials: true,
 }));
 
+let startTime = Date.now();
+
+app.get("/get-start-time", (req, res) => {
+    res.json({ startTime });
+});
+
+app.post("/set-start-time", (req, res) => {
+    startTime = Date.now();
+    res.json({ startTime });
+});
+
 app.get("/users", (req, res) => {
     res.json({ "users": ["userOne", "userTwo", "userThree", "userFour"] })
 })
