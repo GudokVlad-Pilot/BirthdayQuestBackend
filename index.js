@@ -70,6 +70,18 @@ app.get("/champions", (req, res) => {
   });
 });
 
+app.get("/champions_lol", (req, res) => {
+  fs.readFile('./champions_lol.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading champions.json:', err);
+      res.status(500).send('Internal Server Error');
+    } else {
+      const champions_lol = JSON.parse(data);
+      res.json(champions_lol);
+    }
+  });
+});
+
 server.listen(5000, () => {
   console.log("Server is running on port 5000");
 });
