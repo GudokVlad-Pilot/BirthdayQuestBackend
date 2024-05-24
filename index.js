@@ -3,6 +3,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs'); // Подключаем модуль fs для работы с файлами
 
 const app = express();
 const server = http.createServer(app);
@@ -20,9 +21,11 @@ app.use(cors({
   credentials: true
 }));
 
-const avatarsPath = path.join(__dirname, 'avatars'); // Folder path
+const avatarsPath = path.join(__dirname, 'avatars'); //Avatars path
+app.use('/avatars', express.static(avatarsPath)); //Static files
 
-app.use('/avatars', express.static(avatarsPath));
+const chestsPath = path.join(__dirname, 'chests'); //Chests path
+app.use('/chests', express.static(chestsPath)); //Static files
 
 let numbers = [1, 2, 3, 4, 5, 6, 7];
 let currentNumber = numbers[Math.floor(Math.random() * numbers.length)];
@@ -52,6 +55,18 @@ app.get("/users", (req, res) => {
       { name: "userThree", avatar: "userThree.jpg" },
       { name: "userFour", avatar: "userFour.jpg" }
     ]
+  });
+});
+
+app.get("/champions", (req, res) => {
+  fs.readFile('./champions.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading champions.json:', err);
+      res.status(500).send('Internal Server Error');
+    } else {
+      const champions = JSON.parse(data);
+      res.json(champions);
+    }
   });
 });
 

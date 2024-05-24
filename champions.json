@@ -1,0 +1,14 @@
+{
+    "champions": [
+        { "name": "Ари", "chest": "chestAhri.jpg" },
+        { "name": "Брэнд", "chest": "chestBrand.jpg" },
+        { "name": "Брайер", "chest": "chestBriar.jpg" },
+        { "name": "Кай'Са", "chest": "chestKaisa.jpg" },
+        { "name": "Люкс", "chest": "chestLux.jpg" },
+        { "name": "Мисс Фортуна", "chest": "chestMissFortune.jpg" },
+        { "name": "Свейн", "chest": "chestSwain.jpg" },
+        { "name": "Серафина", "chest": "chestSeraphine.jpg" },
+        { "name": "Владос", "chest": "chestVlados.jpg"},
+        { "name": "Пантеон", "chest": "chestPantheon.jpg"}
+    ]
+}
