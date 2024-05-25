@@ -9,14 +9,14 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: ['https://notasurprise.netlify.app', 'http://localhost:3000'],
+    origin: ['https://nikodle.netlify.app', 'http://localhost:3000'],
     methods: ['GET', 'POST'],
     credentials: true
   }
 });
 
 app.use(cors({
-  origin: ['https://notasurprise.netlify.app', 'http://localhost:3000'],
+  origin: ['https://nikodle.netlify.app', 'http://localhost:3000'],
   methods: 'GET,POST,PUT,DELETE',
   credentials: true
 }));
@@ -73,7 +73,7 @@ app.get("/champions", (req, res) => {
 app.get("/champions_lol", (req, res) => {
   fs.readFile('./champions_lol.json', 'utf8', (err, data) => {
     if (err) {
-      console.error('Error reading champions.json:', err);
+      console.error('Error reading champions_lol.json:', err);
       res.status(500).send('Internal Server Error');
     } else {
       const champions_lol = JSON.parse(data);
