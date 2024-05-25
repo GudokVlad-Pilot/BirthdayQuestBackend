@@ -1,5 +1,5 @@
 {
-    "champions": [
+    "champions_lol": [
         { "name": "Аатрокс", "chest": "chestAatrox.jpg" },
         { "name": "Алистар", "chest": "chestAlistar.jpg" },
         { "name": "Амуму", "chest": "chestAmumu.jpg" },
