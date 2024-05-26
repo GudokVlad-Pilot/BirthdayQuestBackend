@@ -47,6 +47,19 @@ app.get("/numbers", (req, res) => {
   res.json({ "numbers": numbers });
 });
 
+app.get("/friends", (req, res) => {
+  fs.readFile('./friends.json', 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading friends.json:', err);
+      res.status(500).send('Internal Server Error');
+    } else {
+      const friends = JSON.parse(data);
+      res.json(friends);
+    }
+  });
+});
+
+
 app.get("/users", (req, res) => {
   res.json({
     users: [
