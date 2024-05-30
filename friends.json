@@ -12,6 +12,7 @@
         { "name": "Андрей (Олеся)", "meeting": 2017, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "Нет", "formula": "Нет" },
         { "name": "Катя (Мама)", "meeting": 2002, "hair": ["Блонд"], "city": "Йоенсуу", "birthday": 1974, "game": "Нет", "formula": "Нет" },
         { "name": "Сергей (Папа)", "meeting": 2009, "hair": ["Седой"], "city": "Неизвестно", "birthday": 1974, "game": "Нет", "formula": "Нет" },
-        { "name": "Артём", "meeting": 2023, "hair": ["Тёмный"], "city": "Питер", "birthday": 2003, "game": "LoL", "formula": "Red Bull" }
+        { "name": "Артём", "meeting": 2023, "hair": ["Тёмный"], "city": "Питер", "birthday": 2003, "game": "LoL", "formula": "Red Bull" },
+        { "name": "Эдвард", "meeting": 2024, "hair": ["Русый"], "city": "Миккели", "birthday": 1998, "game": "DBD", "formula": "Нет" }
     ]
 }
