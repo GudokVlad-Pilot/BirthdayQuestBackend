@@ -9,7 +9,7 @@
         { "name": "Олеся", "meeting": 2014, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "LoL", "formula": "Нет" },
         { "name": "Наташа", "meeting": 2004, "hair": ["Красный"], "city": "Йоенсуу", "birthday": 2004, "game": "Mobile Legends", "formula": "Нет" },
         { "name": "Андрей (брат)", "meeting": 2010, "hair": ["Русый"], "city": "Йоенсуу", "birthday": 2010, "game": "Нет", "formula": "Нет" },
-        { "name": "Андрей (Олеся)", "meeting": 2017, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "Нет", "formula": "Нет" },
+        { "name": "Андрей (Олеся)", "meeting": 2016, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "Bulletstorm", "formula": "Нет" },
         { "name": "Катя (Мама)", "meeting": 2002, "hair": ["Блонд"], "city": "Йоенсуу", "birthday": 1974, "game": "Нет", "formula": "Нет" },
         { "name": "Сергей (Папа)", "meeting": 2009, "hair": ["Седой"], "city": "Неизвестно", "birthday": 1974, "game": "Нет", "formula": "Нет" },
         { "name": "Артём", "meeting": 2023, "hair": ["Тёмный"], "city": "Питер", "birthday": 2003, "game": "LoL", "formula": "Red Bull" },
