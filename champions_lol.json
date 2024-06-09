@@ -1,6 +1,7 @@
 {
     "champions_lol": [
         { "name": "Аатрокс", "chest": "chestAatrox.jpg" },
+        { "name": "Азир", "chest": "chestAzir.jpg" },
         { "name": "Алистар", "chest": "chestAlistar.jpg" },
         { "name": "Амуму", "chest": "chestAmumu.jpg" },
         { "name": "Анивия", "chest": "chestAnivia.jpg" },
@@ -129,6 +130,11 @@
         { "name": "Юми", "chest": "chestYuumi.jpg" },
         { "name": "Ясуо", "chest": "chestYasuo.jpg" },
         { "name": "Йорик", "chest": "chestYorick.jpg" },
-        { "name": "Владос", "chest": "chestVlados.jpg"}
+        { "name": "Владос", "chest": "chestVlados.jpg"},
+        { "name": "Вай", "chest": "chestVi.jpg"},
+        { "name": "Варвик", "chest": "chestVarvik.jpg"},
+        { "name": "Вейгар", "chest": "chestVeigar.jpg"},
+        { "name": "Вел'Коз", "chest": "chestVelkoz.jpg"},
+        { "name": "Гекарим", "chest": "chestGekarim.jpg"}
     ]
 }

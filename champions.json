@@ -5,10 +5,11 @@
         { "name": "Пантеон", "chest": "chestPantheon.jpg"},
         { "name": "Ари", "chest": "chestAhri.jpg" },
         { "name": "Кай'Са", "chest": "chestKaisa.jpg" },
+        { "name": "Владос", "chest": "chestVlados.jpg"},
         { "name": "Свейн", "chest": "chestSwain.jpg" },
         { "name": "Брэнд", "chest": "chestBrand.jpg" },
+        { "name": "Чарли Кью", "chest": "chestVlados.jpg"},
         { "name": "Брайер", "chest": "chestBriar.jpg" },
-        { "name": "Серафина", "chest": "chestSeraphine.jpg" },
-        { "name": "Владос", "chest": "chestVlados.jpg"}
+        { "name": "Серафина", "chest": "chestSeraphine.jpg" }
     ]
 }
