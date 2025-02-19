@@ -1,15 +1,15 @@
 {
-    "champions": [
-        { "name": "Мисс Фортуна", "chest": "chestMissFortune.jpg" },
-        { "name": "Люкс", "chest": "chestLux.jpg" },
-        { "name": "Пантеон", "chest": "chestPantheon.jpg"},
-        { "name": "Ари", "chest": "chestAhri.jpg" },
-        { "name": "Кай'Са", "chest": "chestKaisa.jpg" },
-        { "name": "Владос", "chest": "chestVlados.jpg"},
-        { "name": "Свейн", "chest": "chestSwain.jpg" },
-        { "name": "Брэнд", "chest": "chestBrand.jpg" },
-        { "name": "Чарли Кью", "chest": "chestCharlieQ.jpg"},
-        { "name": "Брайер", "chest": "chestBriar.jpg" },
-        { "name": "Серафина", "chest": "chestSeraphine.jpg" }
-    ]
+  "champions": [
+    { "name": "Мисс Фортуна", "chest": "chestMissFortune.jpg" },
+    { "name": "Люкс", "chest": "chestLux.jpg" },
+    { "name": "Пантеон", "chest": "chestPantheon.jpg" },
+    { "name": "Ари", "chest": "chestAhri.jpg" },
+    { "name": "Кай'Са", "chest": "chestKaisa.jpg" },
+    { "name": "Владос", "chest": "chestVlados.jpg" },
+    { "name": "Свейн", "chest": "chestSwain.jpg" },
+    { "name": "Брэнд", "chest": "chestBrand.jpg" },
+    { "name": "Чарли Кью", "chest": "chestCharlieQ.jpg" },
+    { "name": "Брайер", "chest": "chestBriar.jpg" },
+    { "name": "Серафина", "chest": "chestSeraphine.jpg" }
+  ]
 }

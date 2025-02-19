@@ -1,20 +1,148 @@
 {
-    "friends": [
-        { "name": "Нико", "meeting": 2002, "hair": ["Русый"], "city": "Хельсинки", "birthday": 2002, "game": "Warcraft", "formula": "Red Bull" },
-        { "name": "Фрэнки", "meeting": 2014, "hair": ["Тёмный"], "city": "Якобстад", "birthday": 2002, "game": "BG3", "formula": "Red Bull" },
-        { "name": "Кью", "meeting": 2018, "hair": ["Тёмный", "Блонд"], "city": "Хельсинки", "birthday": 2001, "game": "LoL", "formula": "Mercedes" },
-        { "name": "Влад", "meeting": 2013, "hair": ["Тёмный"], "city": "Миккели", "birthday": 2001, "game": "LoL", "formula": "Ferrari" },
-        { "name": "Жоголи", "meeting": 2023, "hair": ["Тёмный", "Блонд"], "city": "Хельсинки", "birthday": 2002, "game": "BG3", "formula": "Нет" },
-        { "name": "Лиза", "meeting": 2023, "hair": ["Русый", "Блонд"], "city": "Хельсинки", "birthday": 2001, "game": "DBD", "formula": "Alfa Romeo" },
-        { "name": "Олеся", "meeting": 2014, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "LoL", "formula": "Нет" },
-        { "name": "Наташа", "meeting": 2004, "hair": ["Розовый"], "city": "Йоенсуу", "birthday": 2004, "game": "Mobile Legends", "formula": "Нет" },
-        { "name": "Андрей (брат)", "meeting": 2010, "hair": ["Русый"], "city": "Йоенсуу", "birthday": 2010, "game": "Нет", "formula": "Нет" },
-        { "name": "Андрей (Олеся)", "meeting": 2016, "hair": ["Тёмный"], "city": "Питер", "birthday": 2002, "game": "Bulletstorm", "formula": "Нет" },
-        { "name": "Катя (Мама)", "meeting": 2002, "hair": ["Блонд"], "city": "Йоенсуу", "birthday": 1974, "game": "Нет", "formula": "Нет" },
-        { "name": "Сергей (Папа)", "meeting": 2009, "hair": ["Седой"], "city": "Неизвестно", "birthday": 1974, "game": "Нет", "formula": "Нет" },
-        { "name": "Артём", "meeting": 2023, "hair": ["Тёмный"], "city": "Питер", "birthday": 2003, "game": "LoL", "formula": "Red Bull" },
-        { "name": "Эдвард", "meeting": 2024, "hair": ["Русый"], "city": "Миккели", "birthday": 1998, "game": "DBD", "formula": "Нет" },
-        { "name": "Арина", "meeting": 2013, "hair": ["Розовый", "Тёмный"], "city": "Питер", "birthday": 2002, "game": "The isle", "formula": "Нет" },
-        { "name": "Андрей (дед)", "meeting": 2024, "hair": ["Тёмный"], "city": "Орёл", "birthday": 2003, "game": "Dark Souls", "formula": "Нет" }
-    ]
+  "friends": [
+    {
+      "name": "Нико",
+      "meeting": 2002,
+      "hair": ["Русый"],
+      "city": "Хельсинки",
+      "birthday": 2002,
+      "game": "Warcraft",
+      "formula": "Red Bull"
+    },
+    {
+      "name": "Фрэнки",
+      "meeting": 2014,
+      "hair": ["Тёмный"],
+      "city": "Якобстад",
+      "birthday": 2002,
+      "game": "BG3",
+      "formula": "Red Bull"
+    },
+    {
+      "name": "Кью",
+      "meeting": 2018,
+      "hair": ["Тёмный", "Блонд"],
+      "city": "Хельсинки",
+      "birthday": 2001,
+      "game": "LoL",
+      "formula": "Mercedes"
+    },
+    {
+      "name": "Влад",
+      "meeting": 2013,
+      "hair": ["Тёмный"],
+      "city": "Миккели",
+      "birthday": 2001,
+      "game": "LoL",
+      "formula": "Ferrari"
+    },
+    {
+      "name": "Жоголи",
+      "meeting": 2023,
+      "hair": ["Тёмный", "Блонд"],
+      "city": "Хельсинки",
+      "birthday": 2002,
+      "game": "BG3",
+      "formula": "Нет"
+    },
+    {
+      "name": "Лиза",
+      "meeting": 2023,
+      "hair": ["Русый", "Блонд"],
+      "city": "Хельсинки",
+      "birthday": 2001,
+      "game": "DBD",
+      "formula": "Alfa Romeo"
+    },
+    {
+      "name": "Олеся",
+      "meeting": 2014,
+      "hair": ["Тёмный"],
+      "city": "Питер",
+      "birthday": 2002,
+      "game": "LoL",
+      "formula": "Нет"
+    },
+    {
+      "name": "Наташа",
+      "meeting": 2004,
+      "hair": ["Розовый"],
+      "city": "Йоенсуу",
+      "birthday": 2004,
+      "game": "Mobile Legends",
+      "formula": "Нет"
+    },
+    {
+      "name": "Андрей (брат)",
+      "meeting": 2010,
+      "hair": ["Русый"],
+      "city": "Йоенсуу",
+      "birthday": 2010,
+      "game": "Нет",
+      "formula": "Нет"
+    },
+    {
+      "name": "Андрей (Олеся)",
+      "meeting": 2016,
+      "hair": ["Тёмный"],
+      "city": "Питер",
+      "birthday": 2002,
+      "game": "Bulletstorm",
+      "formula": "Нет"
+    },
+    {
+      "name": "Катя (Мама)",
+      "meeting": 2002,
+      "hair": ["Блонд"],
+      "city": "Йоенсуу",
+      "birthday": 1974,
+      "game": "Нет",
+      "formula": "Нет"
+    },
+    {
+      "name": "Сергей (Папа)",
+      "meeting": 2009,
+      "hair": ["Седой"],
+      "city": "Неизвестно",
+      "birthday": 1974,
+      "game": "Нет",
+      "formula": "Нет"
+    },
+    {
+      "name": "Артём",
+      "meeting": 2023,
+      "hair": ["Тёмный"],
+      "city": "Питер",
+      "birthday": 2003,
+      "game": "LoL",
+      "formula": "Red Bull"
+    },
+    {
+      "name": "Эдвард",
+      "meeting": 2024,
+      "hair": ["Русый"],
+      "city": "Миккели",
+      "birthday": 1998,
+      "game": "DBD",
+      "formula": "Нет"
+    },
+    {
+      "name": "Арина",
+      "meeting": 2013,
+      "hair": ["Розовый", "Тёмный"],
+      "city": "Питер",
+      "birthday": 2002,
+      "game": "The isle",
+      "formula": "Нет"
+    },
+    {
+      "name": "Андрей (дед)",
+      "meeting": 2024,
+      "hair": ["Тёмный"],
+      "city": "Орёл",
+      "birthday": 2003,
+      "game": "Dark Souls",
+      "formula": "Нет"
+    }
+  ]
 }
